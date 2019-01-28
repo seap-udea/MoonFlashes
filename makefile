@@ -1,7 +1,7 @@
 BRANCH=$(shell bash .getbranch)
 
 cleanmac:
-	@find . -name "Icon^M" -exec rm -r {} \;
+	@find . -name "Icon^M" -exec git rm {} \;
 
 clean:
 	@echo "Cleaning..."
