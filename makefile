@@ -18,8 +18,10 @@ pull:
 	@-git reset --hard HEAD
 	@-git pull origin $(BRANCH)
 
-unpack:
-	@echo "Unpacking large kernels..."
-	@cat util/kernels/de430bsp/* > util/kernels/de430.bsp
-	@echo "Done."
+pack:
+	@echo "Packing data..."
+	@bash .store/pack.sh pack
 
+unpack:
+	@echo "Unpacking data..."
+	@bash .store/pack.sh unpack
