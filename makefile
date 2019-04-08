@@ -9,6 +9,7 @@ clean:
 
 cleangit:
 	@find . -name "Icon?" -exec git rm {} \;
+	@find . -name "Icon?" -exec rm {} \;
 	@make commit
 
 branch:
