@@ -7,6 +7,10 @@ clean:
 	@echo "Cleaning..."
 	@find . -name "*~" -exec rm -r {} \;
 
+cleangit:
+	@find . -name "Icon?" -exec git rm {} \;
+	@make commit
+
 branch:
 	@echo "Branch: $(BRANCH)"
 
