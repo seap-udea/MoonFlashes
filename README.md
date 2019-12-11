@@ -36,3 +36,6 @@ important is the `rays-lat_-2.94288e+01__lon_-6.81674e+01.data.prob`
 that contains the information about every single *ray* thrown from the
 impact location and the corresponding GRT probability.
 
+If you find inconsistencies, errors or problems at reproducing our
+results do not hesitate at writing us to
+[jorge.zuluaga@udea.edu.co](mailto:jorge.zuluaga@udea.edu.co).
